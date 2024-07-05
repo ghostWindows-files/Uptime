@@ -11,12 +11,13 @@ repo: Uptime
 #下边写的时候一定注意代码的缩进让，“-” 都在同一个竖线上，“name”和“url”也都在同一个竖线上，层次不齐的代码高几率直接报错
 sites:
   - name: KinhPikpak
-    url: "http://tencent.unaux.com/tip/403.html"
+    url: $KINHPIKPAK
     expectedStatusCodes:
       - 301
       - 302
       - 201
       - 404
+      - 200
 
     
 #  - name: 【要监控的第二个网页的名称】『Wikipedia』
@@ -57,14 +58,14 @@ i18n:
   incidentClosedAt: 结束于
   incidentSubscribe: 订阅更新
   incidentViewOnGitHub: 在 GitHub 上查看
-  incidentCommentSummary: "由 $AUTHOR 在 $DATE 发布"
+  incidentCommentSummary: 由 AUTHOR 在 $DATE 发布
   incidentBack: ← 返回所有事件
   pastIncidents: 过去的事件
-  pastIncidentsResolved: "$POSTS 个问题在 $MINUTES 分钟内得到解决"
+  pastIncidentsResolved: $POSTS 个问题在 $MINUTES 分钟内得到解决
   liveStatus: 实时状态
-  overallUptime: "总体正常运行时间： $UPTIME"
+  overallUptime: 总体正常运行时间 $UPTIME
   overallUptimeTitle: 总体正常运行时间
-  averageResponseTime: "平均响应时间:  $TIMEms"
+  averageResponseTime: 平均响应时间: $TIMEms
   averageResponseTimeTitle: 平均响应时间
   sevelDayResponseTime: 7 天响应时间
   responseTimeMs: 响应时间（毫秒）
