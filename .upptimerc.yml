@@ -12,6 +12,7 @@ repo: Uptime
 sites:
   - name: KinhPikpak
     url: $KINHPIKPAK
+    icon: "https://mypikpak.net/favicon.ico"
     expectedStatusCodes:
       - 301
       - 302
@@ -58,14 +59,14 @@ i18n:
   incidentClosedAt: 结束于
   incidentSubscribe: 订阅更新
   incidentViewOnGitHub: 在 GitHub 上查看
-  incidentCommentSummary: 由 AUTHOR 在 $DATE 发布
+  incidentCommentSummary: "由 $AUTHOR 在 $DATE 发布"
   incidentBack: ← 返回所有事件
   pastIncidents: 过去的事件
-  pastIncidentsResolved: $POSTS 个问题在 $MINUTES 分钟内得到解决
+  pastIncidentsResolved: "$POSTS 个问题在 $MINUTES 分钟内得到解决"
   liveStatus: 实时状态
   overallUptime: 总体正常运行时间 UPTIME
   overallUptimeTitle: 总体正常运行时间
-  averageResponseTime: "平均响应时间: TIMEms"
+  averageResponseTime: 平均响应时间: TIMEms
   averageResponseTimeTitle: 平均响应时间
   sevelDayResponseTime: 7 天响应时间
   responseTimeMs: 响应时间（毫秒）
@@ -95,7 +96,7 @@ i18n:
   startedAt: 开始在
   startsAt: 开始于
   duration: 持续时间
-  durationMin: $DURATION 分钟
+  durationMin: "$DURATION 分钟"
   incidentCompleted: 已完成
   incidentScheduled: 已预定
   url: "链接"
