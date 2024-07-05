@@ -66,7 +66,7 @@ i18n:
   liveStatus: 实时状态
   overallUptime: 总体正常运行时间 $UPTIME
   overallUptimeTitle: 总体正常运行时间
-  averageResponseTime: 平均响应时间: $TIMEms
+  averageResponseTime: 平均响应时间: TIMEms
   averageResponseTimeTitle: 平均响应时间
   sevelDayResponseTime: 7 天响应时间
   responseTimeMs: 响应时间（毫秒）
