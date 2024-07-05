@@ -2,7 +2,7 @@
   {
     "name": "KinhPikpak",
     "url": "$KINHPIKPAK",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "icon": "https://mypikpak.net/favicon.ico",
     "slug": "kinh-pikpak",
     "status": "up",
     "uptime": "100.00%",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 607,
-    "timeDay": 607,
-    "timeWeek": 607,
-    "timeMonth": 607,
-    "timeYear": 607,
+    "time": 591,
+    "timeDay": 591,
+    "timeWeek": 591,
+    "timeMonth": 591,
+    "timeYear": 591,
     "dailyMinutesDown": {}
   }
 ]
