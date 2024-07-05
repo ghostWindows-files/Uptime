@@ -22,7 +22,7 @@ sites:
 
 # A-如果你的监控控制台页面，打算使用github的默认域名，则使用如下设置。和下边B设置互斥，请二选一
 status-website: 
-  baseUrl: /uptime
+  baseUrl: /Uptime
 
 # B-如果你的监控控制台页面，打算使用自己所有的域名，则使用如下设置，和上边A设置互斥，请二选一
 #status-website: 
