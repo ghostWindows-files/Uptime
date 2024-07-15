@@ -4,18 +4,19 @@
     "url": "$KINHPIKPAK",
     "icon": "https://mypikpak.net/favicon.ico",
     "slug": "kinh-pikpak",
-    "status": "up",
-    "uptime": "99.86%",
+    "status": "down",
+    "uptime": "99.87%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.86%",
-    "uptimeYear": "99.86%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.87%",
     "time": 637,
     "timeDay": 703,
     "timeWeek": 617,
     "timeMonth": 637,
     "timeYear": 637,
     "dailyMinutesDown": {
+      "2024-07-15": 0,
       "2024-07-05": 19
     }
   }
