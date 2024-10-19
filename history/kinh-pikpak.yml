@@ -1,7 +1,7 @@
 url: $KINHPIKPAK
-status: up
-code: 200
-responseTime: 642
-lastUpdated: 2024-10-18T23:12:31.858Z
+status: down
+code: 403
+responseTime: 308
+lastUpdated: 2024-10-19T04:33:06.925Z
 startTime: 2024-07-05T07:13:02.176Z
 generator: Upptime <https://github.com/upptime/upptime>
